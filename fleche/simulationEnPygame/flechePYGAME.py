@@ -8,8 +8,8 @@ hauteur_fenetre = 400
 
 blanc = (255, 255, 255)
 
-distance = 110.0  # en mètres (utilisez une valeur décimale pour plus de précision)
-vitesse_fleche = 5.0  # en mètres par seconde (utilisez une valeur décimale pour plus de précision)
+distance = 110.0  # en mètres 
+vitesse_fleche = 5.0  # en mètres par seconde
 
 position_fleche = 0.0
 temps_debut = pygame.time.get_ticks()  # Temps en millisecondes au début
@@ -23,7 +23,7 @@ fleche_image = pygame.transform.scale(fleche_image, (50, 50))  # Redimensionnez 
 
 # Chargez l'image de la cible
 cible_image = pygame.image.load("cible.png")
-cible_image = pygame.transform.scale(cible_image, (100, 100))  # Redimensionnez l'image si nécessaire
+cible_image = pygame.transform.scale(cible_image, (100, 100))  # Redimensionnez l'image
 
 # Positionnez la cible à l'emplacement souhaité
 cible_x = 100
